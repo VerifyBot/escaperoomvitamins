@@ -1,0 +1,181 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-family: VRfont;
+	color: #ffffff;
+}
+
+
+@-webkit-keyframes rainbowbg {
+    0%{background-color: #ca0b0b;}
+    14%{background-color: #e4d900;}
+    28%{background-color: #6ce263}
+	39%{background-color: #76f8fc}
+	53%{background-color: #5b6afe}
+	70%{background-color: #802deb}
+	85%{background-color: #c400b9}
+	100%{background-color: #ca0b0b}
+}
+@-moz-keyframes rainbowbg {
+    0%{background-color: #ca0b0b;}
+    14%{background-color: #e4d900;}
+    28%{background-color: #6ce263}
+	39%{background-color: #76f8fc}
+	53%{background-color: #5b6afe}
+	70%{background-color: #802deb}
+	85%{background-color: #c400b9}
+	100%{background-color: #ca0b0b}
+}
+@keyframes rainbowbg {
+    0%{background-color: #ca0b0b;}
+    14%{background-color: #e4d900;}
+    28%{background-color: #6ce263}
+	39%{background-color: #76f8fc}
+	53%{background-color: #5b6afe}
+	70%{background-color: #802deb}
+	85%{background-color: #c400b9}
+	100%{background-color: #ca0b0b}
+}
+
+
+@-webkit-keyframes rainbow {
+    0%{border-color: #ca0b0b;box-shadow-color: #ca0b0b;}
+    14%{border-color:#e4d900;box-shadow-color:#e4d900;}
+    28%{border-color:#6ce263;box-shadow-color:#6ce263;}
+	39%{border-color:#76f8fc;box-shadow-color:#76f8fc;}
+	53%{border-color:#5b6afe;box-shadow-color:#5b6afe;}
+	70%{border-color:#802deb;box-shadow-color:#802deb;}
+	85%{border-color:#c400b9;box-shadow-color:#c400b9;}
+	100%{border-color: #ca0b0b;box-shadow-color: #ca0b0b;}
+}
+@-moz-keyframes rainbow {
+    0%{border-color: #ca0b0b;box-shadow-color: #ca0b0b;}
+    14%{border-color:#e4d900;box-shadow-color:#e4d900;}
+    28%{border-color:#6ce263;box-shadow-color:#6ce263;}
+	39%{border-color:#76f8fc;box-shadow-color:#76f8fc;}
+	53%{border-color:#5b6afe;box-shadow-color:#5b6afe;}
+	70%{border-color:#802deb;box-shadow-color:#802deb;}
+	85%{border-color:#c400b9;box-shadow-color:#c400b9;}
+	100%{border-color: #ca0b0b;box-shadow-color: #ca0b0b;}
+}
+@keyframes rainbow {
+    0%{border-color: #ca0b0b;box-shadow-color: #ca0b0b;}
+    14%{border-color:#e4d900;box-shadow-color:#e4d900;}
+    28%{border-color:#6ce263;box-shadow-color:#6ce263;}
+	39%{border-color:#76f8fc;box-shadow-color:#76f8fc;}
+	53%{border-color:#5b6afe;box-shadow-color:#5b6afe;}
+	70%{border-color:#802deb;box-shadow-color:#802deb;}
+	85%{border-color:#c400b9;box-shadow-color:#c400b9;}
+	100%{border-color: #ca0b0b;box-shadow-color: #ca0b0b;}
+}
+
+@font-face {
+  font-family: VRfont;
+  src: url(VR.woff2);
+}
+
+.anstextbox {
+	 animation-name: rainbowgradient;
+	 animation-duration: 12s;
+     padding: 0.3vw;
+     font-size: 4.5vh;
+	 font-family: VRfont;
+     border-width: 0.2vw;
+     border-color: #ffffff;
+     background-color: #243138;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 40px rgba(255, 255, 255,.3);
+	 text-align: center;
+	 transition-duration: 0.1s;
+	   -webkit-animation: rainbow 30s ease infinite;
+  -moz-animation: rainbow 30s ease infinite;
+  animation: rainbow 30s ease infinite;
+}
+
+.anstextbox:hover{
+	font-size: 5.5vh 
+}
+
+.anstextbox:focus {
+     outline:none;
+}
+#main {
+	width: 100%;
+	height: 150vh;
+	/*position: relative;*/
+	/*overflow: hidden;*/
+	background: #2b3a4a /*linear-gradient(#1f3040,#2f5c66);
+	/*display: flex;
+    justify-content: center;*/
+}
+
+.title{
+	font-size: 10vmin
+}
+
+#bottom{
+	position: absolute;
+	bottom:-50vh;
+	width: 100%;
+}
+
+
+
+.btn {
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 0;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 4.5vh;
+  background: #243138;
+  padding: 0.3vw;
+  border: solid #42b9bd 0.2vw;
+  text-decoration: none;
+  box-shadow: 0px 0px 40px rgba(255, 255, 255,.3);
+  transition-duration: 0.1s;
+  -webkit-animation: rainbow 30s ease infinite;
+  -moz-animation: rainbow 30s ease infinite;
+  animation: rainbow 30s ease infinite;
+}
+
+.btn:hover {
+  
+  font-size: 5.5vh;
+  text-decoration: none;
+}
+
+.btn:focus{
+	outline:none;
+	
+	
+}
+
+.btn:active{
+	background: #519c9a;
+}
+
+.bgtitle{
+	box-shadow: 0px 0px 40px rgba(255, 255, 255,.3);
+	width: vw;
+	height:6re;
+	background-color: #757575;
+    background-size: 1400% 1400%;
+	
+    -webkit-animation: rainbowbg 30s ease infinite;
+    -moz-animation: rainbowbg 30s ease infinite;
+    animation: rainbowbg 30s ease infinite;
+}
+
+label{
+	font-size: 3vmin;
+}
+

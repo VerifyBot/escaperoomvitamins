@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  
+<!-- Mirrored from roeilustig1.gitlab.io/escaperoomvitamins/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Mar 2021 19:31:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="GitLab Pages">
+    <title>Escape Room</title>
+	<script>
+		function clickCorrect(){
+			location.href = "level1.html";
+			//var element = document.getElementsByClassName("anstextbox")[0];
+			//var nextLevel = document.getElementsByClassName("a")[0];
+			//console.log(element.value)
+			//console.log(nextLevel)
+			//if(element.value == 'hi'){
+			//console.log("l")
+			//	location.href = "index.html";
+			//}
+		}
+		
+		function click(){
+			var b = document.getElementById(id);
+			b.style.background = "#679cb5";
+			setTimeout(function(id) {
+				b.style.background= "#243138";
+			}, 100);
+		
+		}
+		
+	</script>
+	<script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+ 
+    document.onkeydown = function (e) {
+ 
+        // disable F12 key
+        if(e.keyCode == 123) {
+            return false;
+        }
+ 
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+ 
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+ 
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+ 
+</script>
+    <link rel="stylesheet" type="text/css" href="rainbow.css">
+  </head>
+  <body>
+  
+    <div id="main">
+		<div class= "bgtitle"><p align="center"><b class="title">אסקייפ רום ויטמינים</b></p></div>
+		<div style="margin-top: 30%">
+			<p align="center">
+				<button onclick="clickCorrect()" class="btn">לחץ כאן כדי להתחיל את האסקייפ רום</button>
+			</p>
+		</div>
+		
+		<div id="bottom">
+			<p align="center">
+				<h3 style="text-align:center;font-size:5vmin">:credits</h3>
+			</p>
+			<p align= "center" style="font-size:4vmin">
+מנחה: ליהי ביוס.<br>
+יוצרים: רואי לוסטיג, דניאל קצן, אומרי פלג, יואב לוי, שי גילת, שחר יעקב, רעות חמו, עופרי מור, עדן אייל וליהי פלד.
+
+			
+			</p>
+		</div>
+	</div>
+    
+    
+  </body>
+  
+
+<!-- Mirrored from roeilustig1.gitlab.io/escaperoomvitamins/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Mar 2021 19:31:20 GMT -->
+</html>
+
